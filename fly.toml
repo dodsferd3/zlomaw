@@ -1,0 +1,10 @@
+app = "zlomaw-tho3qg"
+primary_region = "fra"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[vm]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 512
